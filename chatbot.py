@@ -12,7 +12,7 @@ def get_response(user_input):
         return "I'm doing great, thanks for asking! 😊 How about you?"
 
     elif any(word in text for word in ["what is your name", "who are you", "your name"]):
-        return "I'm PyBot — your friendly Python chatbot! 🤖"
+        return "I'm Novapy a python chatbot! 🤖"
 
     elif any(word in text for word in ["time", "what time"]):
         now = datetime.datetime.now().strftime("%I:%M %p")
@@ -34,7 +34,7 @@ def get_response(user_input):
         )
 
     elif any(word in text for word in ["joke", "tell me a joke", "funny"]):
-        return "Why do programmers prefer dark mode? Because light attracts bugs! 🐛😄"
+        return "Why do programmers prefer dark mode? \n Because light attracts bugs! 🐛😄"
 
     elif any(word in text for word in ["bye", "goodbye", "exit", "quit", "see you"]):
         return "Goodbye! Have a wonderful day! 👋"
@@ -51,7 +51,7 @@ def is_exit_command(user_input):
 def main():
     """Main loop: greet the user, listen for input, respond, repeat."""
     print("=" * 40)
-    print("       Welcome to PyBot! 🤖")
+    print("       Welcome to Novapy! 🤖")
     print("  Type 'help' to see what I can do.")
     print("  Type 'bye' or 'exit' to quit.")
     print("=" * 40)
@@ -64,7 +64,7 @@ def main():
             continue
 
         response = get_response(user_input)
-        print(f"PyBot: {response}\n")
+        print(f"Novapy: {response}\n")
 
         if is_exit_command(user_input):
             break
