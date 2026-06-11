@@ -6,23 +6,24 @@ Novapy is a simple rule-based chatbot built using Python. It interacts with user
 
 ---
 
-## ⚡ Features
+## ✨ Features
 
-* Greets users with friendly responses 
+* Greets users with friendly responses
 * Responds to "How are you?" queries
 * Introduces itself when asked
 * Displays the current time
 * Shows the current date
 * Tells programming jokes
-* Provides a help menu
-* Supports exit commands
+*  Provides a help menu
+*  Supports exit commands
 * Handles unknown inputs gracefully
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Python 3.x
+* **Python 3.x** 
+* **Datetime Module** 
 
 ---
 
@@ -70,6 +71,26 @@ python chatbot.py
 ```
 
 ---
+
+## 💡 Sample Interaction
+
+```
+You: Hello
+
+Novapy: Hi there! 👋 How can I help you today?
+
+You: What is your name?
+
+Novapy: I'm Novapy, a Python Chatbot! 🤖
+
+You: Joke
+
+Novapy: Why do programmers prefer dark mode?
+Because light attracts bugs! 🐛😄
+```
+
+---
+
 ## 🎯 Task Information
 
 ### Task
