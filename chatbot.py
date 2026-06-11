@@ -15,11 +15,11 @@ def get_response(user_input):
         return "I'm Novapy a python chatbot! 🤖"
 
     elif any(word in text for word in ["time", "what time"]):
-        now = datetime.datetime.now().strftime("%I:%M %p")
+        now = datetime.now().strftime("%I:%M %p")
         return f"The current time is {now}. ⏰"
 
     elif any(word in text for word in ["date", "today", "what day"]):
-        today = datetime.datetime.now().strftime("%A, %B %d, %Y")
+        today = datetime.now().strftime("%A, %B %d, %Y")
         return f"Today is {today}. 📅"
 
     elif any(word in text for word in ["help", "what can you do", "commands"]):
