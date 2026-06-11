@@ -1,8 +1,3 @@
-"""
-Task 4: Basic Rule-Based Chatbot
-Concepts: if-elif, functions, loops, input/output, datetime
-"""
-
 from datetime import datetime
 
 
@@ -20,11 +15,11 @@ def get_response(user_input):
         return "I'm PyBot — your friendly Python chatbot! 🤖"
 
     elif any(word in text for word in ["time", "what time"]):
-        now = datetime.now().strftime("%I:%M %p")
+        now = datetime.datetime.now().strftime("%I:%M %p")
         return f"The current time is {now}. ⏰"
 
     elif any(word in text for word in ["date", "today", "what day"]):
-        today = datetime.now().strftime("%A, %B %d, %Y")
+        today = datetime.datetime.now().strftime("%A, %B %d, %Y")
         return f"Today is {today}. 📅"
 
     elif any(word in text for word in ["help", "what can you do", "commands"]):
