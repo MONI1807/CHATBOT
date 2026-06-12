@@ -14,8 +14,7 @@ Novapy is a simple rule-based chatbot built using Python. It interacts with user
 * Displays the current time
 * Shows the current date
 * Tells programming jokes
-* Includes a calculator mode
-* Includes a mini word game
+* Includes a small word game
 *  Provides a help menu
 *  Supports exit commands
 * Handles unknown inputs gracefully
@@ -37,7 +36,6 @@ Novapy is a simple rule-based chatbot built using Python. It interacts with user
 * String Manipulation
 * User Input Handling
 * Date and Time Module
-* Safe expression evaluation
 * Modular Programming
 
 ---
@@ -58,7 +56,7 @@ CODEALPHA_Chatbot/
 1. Clone this repository:
 
 ```bash
-git clone https:https://github.com/MONI1807/CHATBOT.git
+git clone https://github.com/MONI1807/CHATBOT.git
 ```
 
 2. Navigate to the project directory:
@@ -90,6 +88,16 @@ You: Joke.
 
 Novapy: Why do programmers prefer dark mode?
 Because light attracts bugs! 🐛😄
+
+You: Word game
+
+Novapy: Let's play a word game!
+Novapy: Unscramble this word: cdoe
+Novapy: Hint: What programmers write
+
+You: code
+
+Novapy: Correct! Nice work. 🎉
 ```
 
 ---
@@ -121,7 +129,6 @@ Build a Simple Rule-Based Chatbot using Python.
 
 * User name memory
 * Multiple jokes and quotes
-* More word games and puzzle modes
 * Weather information integration
 
 ---
