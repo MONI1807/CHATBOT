@@ -86,7 +86,7 @@ You: What is your name?
 
 Novapy: I'm Novapy, a Python Chatbot! 🤖
 
-You: Joke
+You: Joke.
 
 Novapy: Why do programmers prefer dark mode?
 Because light attracts bugs! 🐛😄
