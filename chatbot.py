@@ -172,7 +172,7 @@ def main():
     print("=" * 80)
     print("       Welcome to Novapy! 🤖")
     print("  Type 'help' to see what I can do.")
-    print("  Type 'bye' or 'exit' to quit.")
+    print("  Type 'bye' or 'exit' to quit..")
     print("=" * 80)
     print()
 
