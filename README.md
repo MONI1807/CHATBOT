@@ -1,138 +1,140 @@
-# 🤖 Novapy - Python Chatbot
+# 🚀 Novapy - Rule-Based Python Chatbot
 
-## 📌 Project Overview
+> A simple and interactive chatbot built with Python that can respond to user queries, tell jokes, display the current date and time, and entertain users with a fun word scramble game.
 
-Novapy is a simple rule-based chatbot built using Python. It interacts with users through predefined responses and can handle greetings, date and time queries, jokes, help commands, and more. This project demonstrates the use of Python fundamentals such as functions, conditional statements, loops, string manipulation, and user input handling.
+## 🌟 About The Project
+
+Novapy is a command-line chatbot designed to demonstrate core Python programming concepts through an engaging and interactive application. The chatbot can hold basic conversations, provide useful information, and offer a mini word game for entertainment.
 
 ---
 
-## ✨ Features
+## 🛠 Built With
 
-* Greets users with friendly responses
-* Responds to "How are you?" queries
-* Introduces itself when asked
-* Displays the current time
-* Shows the current date
-* Tells programming jokes
-* Includes a small word game
-*  Provides a help menu
-*  Supports exit commands
+* Python 3
+* Random Module
+* Datetime Module
+
+---
+
+## 📋 Features
+
+### 🤖 Chat Assistant
+
+* Responds to greetings
+* Answers common questions
+* Provides help information
 * Handles unknown inputs gracefully
 
----
+### 🎮 Word Scramble Game
 
-## 🛠️ Technologies Used
+* Random word generation
+* Helpful clues
+* Multiple attempts
+* Interactive gameplay
 
-* **Python 3.x** 
-* **Datetime Module** 
+### ⏰ Utility Features
 
----
-
-## 📚 Concepts Applied
-
-* Functions
-* Conditional Statements
-* Loops
-* String Manipulation
-* User Input Handling
-* Date and Time Module
-* Modular Programming
+* Current Time
+* Current Date
+* Fun Jokes
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-CODEALPHA_Chatbot/
+CHATBOT/
 │
 ├── chatbot.py
 ├── README.md
+└── __pycache__/
 ```
 
 ---
 
-## ▶️ How to Run
+##  ▶️ How to Run
 
-1. Clone this repository:
+### Clone the Repository
 
-```bash
+```
 git clone https://github.com/MONI1807/CHATBOT.git
 ```
 
-2. Navigate to the project directory:
+### Navigate to the Project Folder
 
-```bash
-cd CODEALPHA_Chatbot
+```
+cd CHATBOT
 ```
 
-3. Run the chatbot:
+### Run the Program
 
-```bash
+```
 python chatbot.py
 ```
 
+## &#x20;
+
 ---
 
-## 💡 Sample Interaction
+## 🖥 Sample Interaction
 
-```
-You: Hello
+```text
 
+========================================
+       Welcome to Novapy! 🤖
+  Type 'help' to see what I can do.
+  Type 'bye' or 'exit' to quit.
+========================================
+
+You: hello
 Novapy: Hi there! 👋 How can I help you today?
 
-You: What is your name?
+You: what is your name
+Novapy: I'm Novapy a python chatbot! 🤖
 
-Novapy: I'm Novapy, a Python Chatbot! 🤖
+You: time
+Novapy: The current time is 10:30 AM. ⏰
 
-You: Joke.
+You: date
+Novapy: Today is Thursday, June 12, 2026. 📅
 
+You: joke
 Novapy: Why do programmers prefer dark mode?
 Because light attracts bugs! 🐛😄
 
-You: Word game
-
+You: word game
 Novapy: Let's play a word game!
-Novapy: Unscramble this word: cdoe
-Novapy: Hint: What programmers write
+Novapy: Unscramble this word: nohtyp
+Novapy: Hint: A popular programming language
 
-You: code
-
+You: python
 Novapy: Correct! Nice work. 🎉
+
+You: bye
+Novapy: Goodbye! Have a wonderful day! 👋
+``
 ```
 
 ---
 
-## 🎯 Task Information
+## 🎓 Learning Outcomes
 
-### Task
+This project helped strengthen my understanding of:
 
-Build a Simple Rule-Based Chatbot using Python.
-
-### Requirements
-
-* Accept user input
-* Match predefined keywords
-* Return appropriate responses
-* Continue conversation until exit command is given
-
-### Learning Outcomes
-
-* Understanding chatbot fundamentals
-* Working with functions and loops
-* Handling user input effectively
-* Applying conditional logic
-* Building interactive console applications
+* Python Functions
+* Conditional Statements
+* Loops
+* Lists and Tuples
+* User Input Handling
+* Randomization
+* Error Handling
+* Modular Programming
 
 ---
 
-## 🚀 Future Enhancements
+## 🔗 Repository
 
-* User name memory
-* Multiple jokes and quotes
-* Weather information integration
+GitHub: https://github.com/MONI1807/CHATBOT
 
 ---
 
-## 🔗 Project Link
-
-GitHub repository link : https://github.com/MONI1807/CHATBOT.git
